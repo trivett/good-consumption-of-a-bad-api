@@ -13,3 +13,8 @@
 // be a good sport and don't look at https://worst-api-ever.herokuapp.com/users/:id/messages, that makes it too easy.
 
 // now you have the text for each of those messages, display them as <li>s in the html however you choose. Extra credit if you make the UI nice.
+
+document.querySelector("#username-search").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+});
