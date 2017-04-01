@@ -1,0 +1,25 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Displaying all of the shitty posts for a user</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="ui grid">
+
+  <div class=" ui eight column centered grid container">
+    <h1>Search for messages by a user</h1>
+    <form id="username-search" class="ui search" onsubmit="return false;">
+      <input type="text" name="query" placeholder="Type in a user's screenname" class="prompt">
+      <button class='ui button'>Search</button>
+
+    </form>
+
+    <h2 class='messages-headline'><span>{user}'s</span> messages</h2>
+
+    <ul id="messages-conatiner">
+
+    </ul>
+  </div>
+</body>
+</html>
