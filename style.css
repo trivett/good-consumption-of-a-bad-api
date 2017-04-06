@@ -1,5 +1,5 @@
 
 
-.messages-headline {
+#messages-headline, #finished-text {
   display: none;
 }
